@@ -2,17 +2,17 @@ package Java.Car;
 
 public class CarBuilderImpl implements CarBuilder{
     private int id;
-    private String energyType;
+    private EnergyType energyType;
     private int model;
     private double price;
-    private String precendence;
+    private Precedence precendence;
 
     public CarBuilderImpl setId(int id){
         this.id = id;
         return this;
     }
 
-    public CarBuilderImpl setEnergyType(String energyType){
+    public CarBuilderImpl setEnergyType(EnergyType energyType){
         this.energyType = energyType;
         return this;
     }
@@ -27,7 +27,7 @@ public class CarBuilderImpl implements CarBuilder{
         return this;
     }
 
-    public CarBuilderImpl setPrecendence(String precedence){
+    public CarBuilderImpl setPrecendence(Precedence precedence){
         this.precendence = precedence;
         return this;
     }

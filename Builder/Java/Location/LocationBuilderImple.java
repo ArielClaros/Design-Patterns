@@ -1,11 +1,11 @@
 package Java.Location;
 
 public class LocationBuilderImple implements LocationBuilder{
-    private String status;
+    private Status status;
     private String origin;
     private String destination;
 
-    public LocationBuilderImple setStatus(String status){
+    public LocationBuilderImple setStatus(Status status){
         this.status = status;
         return this;
     }
