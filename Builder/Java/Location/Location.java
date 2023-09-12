@@ -10,4 +10,16 @@ public class Location {
         this.origin = origin;
         this.destination = destination;
     }
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public String getOrigin() {
+        return origin;
+    }
+
+    public String getDestination() {
+        return destination;
+    }
 }

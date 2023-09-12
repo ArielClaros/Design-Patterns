@@ -13,6 +13,7 @@ public class Main {
     public static void main(String[] args) {
         Car car = new CarBuilderImpl()
             .setId(1)
+            .setPrice(200)
             .setEnergyType(EnergyType.ELECTRIC)
             .setModel(2023)
             .build();
@@ -25,5 +26,9 @@ public class Main {
         Stock stock = new StockBuilderImpl()
             .setQuantity(10)
             .build();
+
+        System.out.println(car.getPrice());
+        System.out.println(stock.getQuantity());
+        System.out.println(location.getDestination());
     }
 }

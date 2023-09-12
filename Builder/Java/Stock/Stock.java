@@ -10,4 +10,12 @@ public class Stock {
         this.car = car;
         this.quantity = quantity;
     }
+
+    public Car getCar() {
+        return car;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
 }
