@@ -13,19 +13,19 @@ class Car {
 }
 
 class Camion extends Car {
-    constructor(id, model, price){
-        super(id, "Diesel", model, price, "Camion");
+    constructor(id, energyType, model, price, precedence){
+        super(id, energyType, model, price, precedence);
     }
 }
 
 class Bus extends Car {
-    constructor(id, model, price){
-        super(id, "Diesel", model, price, "Bus");
+    constructor(id, energyType, model, price, precedence){
+        super(id, energyType, model, price, precedence);
     }
 }
 
 class Escarabajo extends Car {
-    constructor(id, model, price){
-        super(id, "Gasolina", model, price, "Escarabajo");
+    constructor(id, energyType, model, price, precedence){
+        super(id, energyType, model, price, precedence);
     }
 }

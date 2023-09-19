@@ -1,4 +1,4 @@
-package Adapter.Java;
+package Adapter.Java.Draft;
 
 import java.util.List;
 import java.util.Map;
@@ -14,7 +14,7 @@ public class SubsidiaryImpl implements Subsidiary{
     private ShipmentDepartament shipmentDepartament;
     private TaxHandler taxHandler;
     private String country;
-    
+
     @Override
     public List<Stock> getAllStock() {
         // TODO Auto-generated method stub

@@ -1,4 +1,4 @@
-package Adapter.Java;
+package Adapter.Java.Draft;
 
 import java.util.List;
 import Java.Car.EnergyType;

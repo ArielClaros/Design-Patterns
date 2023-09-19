@@ -1,4 +1,4 @@
-package Adapter.Java;
+package Adapter.Java.Draft;
 
 import java.util.ArrayList;
 import java.util.List;
